@@ -1,19 +1,45 @@
 aid: apoha
 name: Apoha
-description: Apoha is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Apoha is a deep-tech molecular-science company teaching machines to understand
+  matter at the molecular level. Its Liquid State sensory-intelligence platform captures
+  dynamic molecular fingerprints, measuring the biophysical behavior of molecules
+  under stress from minimal sample amounts, to unlock a new fundamental data class
+  for AI. Its first commercial product, VIBE (Variations in Inter-facial Behaviour
+  Under Excitation), predicts how drugs, foods, and materials will behave in the real
+  world, serving pharmaceutical, biotech, food-and-beverage, and materials-science
+  R&D. Based in San Francisco and London, Apoha emerged from stealth in 2026 with
+  $36M in funding led by Singular, alongside Draper Associates, Redalpine, Seedcamp,
+  Wilbe, and Nucleus.
 url: https://raw.githubusercontent.com/api-evangelist/apoha/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a0ae8a02dd61a1222f97502/6a1f1bc0f0f84a991da81782_Home.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Molecular Science
+- Artificial Intelligence
+- Deep Tech
+- Materials Science
+- Life Sciences
+- Sensory Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://apoha.com
+  url: https://www.apoha.com
+- type: PrivacyPolicy
+  url: https://app.apoha.com/docs/legal/privacy-policy
+- type: Support
+  url: https://www.apoha.com/talk-to-us
+- type: DomainSecurity
+  url: security/apoha-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
